@@ -1,0 +1,233 @@
+body{
+	font-family: Arial , sans-serif;
+}
+ 
+ nav{
+     width: 100%;
+     height: 60px;
+     background: #344051;
+    }
+.logo{
+	color: #fff;
+	font-size: 28px;
+	line-height: 60px;
+	padding-left: 250px;
+	float: left;
+      }
+.menu{
+    float: left;
+    padding-left: 700px;
+    color: #ffffff
+     }
+.menu  li{
+	float: left;
+	line-height: 60px;
+	letter-spacing:0.2px;
+	margin-right:40px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.main{
+   width:100%;
+   height: 90%;
+   height: calc(100%-60px);
+  box-shadow: 0px -25px 26px -5px #cbccd4 inset;
+   background: url(../img/boy.png) 85% 100%/ auto 90% no-repeat , url(../img/bg.jpg) center/cover no-repeat;
+}
+.title__container{
+	float: left;
+	margin: 432px 0px 0px 404px;
+	color: #2c384a;
+	text-align: center;
+}
+.title__container h1{
+	font-size: 60px;
+	font-weight: bold;
+}
+.title__container h4{
+	margin-top: 30px;
+	font-size:22px;
+	color:#79818d;
+}
+.title__container input{
+	height: 40px;
+	text-align: center;
+	border: 2px solid #6d7682;
+	background: none;
+	border-radius:5px;
+	color:#6d7682;
+	font-size: 15px;
+	font-weight: 700;
+	padding: 0px 16px;
+	margin:38px 14px 0px 14px;
+                                              }
+
+.about__me  {
+	display:block;
+}
+
+.OUT_ME{
+	font-weight:bold; 
+  
+  padding-top:100px;
+ padding-left: 47%;
+	text-align:justify;
+	font-size: 33px;
+}
+
+#ff1{
+	float: center;
+	background: url(../img/Chert.jpg) 50% 50%/ auto 5px no-repeat local;
+	padding-top: 60px;
+}
+#ff2{
+	
+	background: url(../img/boy2.png) 50% 50%/ 300px auto no-repeat local; 
+	padding-left:47%;
+	padding-top: 15%;
+}
+.content1{
+	float: center;
+	margin-left:40%;
+	line-height: 15px;
+	font-size: 15px;
+}
+.DOWM{
+	float: center;
+	height: 30px;
+	text-align: center;
+	border: 2px solid #6d7682;
+	background: none;
+	border-radius:5px;
+	color:#6d7682;
+	font-size: 15px;
+	font-weight: 700;
+	padding: 0px 15px;
+	margin:38PX 14px 0px 1185px;
+                                              }
+
+.I_can_do{
+	margin-top:150px;
+	display:block;
+	width:100%;
+   height: 50%;
+   background-color: #000;
+	background: url(../img/Fonss.png) center/cover no-repeat;
+	
+   
+}
+#I_can{
+	float: center;
+	font-weight:bold; 
+  padding-top:100px;
+ padding-left: 46%;
+	text-align:justify;
+	font-size: 33px;
+}                                             
+#chert2{
+	float: center;
+	background: url(../img/Chert.jpg) 50% 50%/ auto 5px no-repeat local;
+	padding-top: 60px;
+
+}
+.I_can_do img {
+float: left;
+	height: 80px;
+	margin-right:300px;
+	margin-left: 200px;
+    font-size: 1px;
+}
+.png2 {
+ float: left;
+	height: 80px;
+	padding-right:110px;
+	padding-left: 0px;
+    font-size: 1px;
+}
+
+.dizain li{
+	
+    float: left;
+	letter-spacing:0.7px;
+	padding-left: 200px;
+	padding-right:290px;
+	padding-top: 40px;
+    font-size: 20px;
+    color: #cf7600;
+    
+
+}
+.dizain2 li{
+	float: left;
+	letter-spacing:0.7px;
+	padding-left: 150px;
+	padding-right:290px;
+	padding-top: 39px;
+    font-size: 20px;
+    color: #cf7600;
+    
+                                        }
+.Case{
+	display: inline-block;
+}
+.Work h2{
+	float: center;
+	font-weight:bold;
+	 font-weight:bold;
+  padding-top:100px;
+ padding-left: 1200px;
+	text-align:justify;
+	font-size: 33px;
+}
+#chert3{
+	float: center;
+	background: url(../img/Chert.jpg) 50% 50%/ auto 5px no-repeat local;
+	padding-top: 60px;
+	height: 10px;
+}
+.Work span{
+	float:center;
+	padding-left: 1060px;
+}
+#skrin{
+	float: center;
+	padding-top: 1000px;
+	background: url(../img/skrin.png) 30% 50%/ auto 900px  no-repeat local;
+}
+.left_text{
+	float: left;
+	width: 90%;
+	margin-top: 300px;
+	padding-left: 680px;
+	font-size: 28px;
+	line-height: 30px;
+}
+.left_text a {
+float: left;
+ width: 20%;
+	height: 30px;
+	text-align: center;
+	border: 2px solid #63b5ae;
+	background: #63b5ae;
+	border-radius:5px;
+	color:#ffffff;
+	font-size: 15px;
+	font-weight: 20px;
+	padding: 0px 5px 4px 5px;
+	margin: 20px 1665px 0px 0px;
+}
+.name_project {
+	
+	padding-left: 0px;
+	padding-top: 0px;
+                                           }
+
+.Price h2 {
+ float:center;
+ color: #fff;
+	font-size: 28px;
+	line-height: 5px;
+	padding-left: 100px;
+	
+	
+}   
