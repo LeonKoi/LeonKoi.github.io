@@ -536,10 +536,10 @@ width: 800px;
 
    footer{
    	color: #f9fafe;
-
+padding-top: 0px;
    }                                
  .fons4{
- 	padding-top: 1000px;
+ 	padding-top: 0px;
  	width:100%;
    height: 100%;
  background: url(../img/fon.png) center/cover no-repeat;
@@ -547,15 +547,15 @@ width: 800px;
  } 
  #chert6{
 float: center;
-	background: url(../img/Chert.jpg) 27% 50%/ auto 5px no-repeat local;
+	background: url(../img/Chert.jpg) 50% 50%/ auto 5px no-repeat local;
 	margin-top: 15px;
-	margin-left: 761px;
+	
 	height: 10px;
 	margin-bottom: 20px;
  }
 #in {
  	float: center;
-   margin-top: -800px;
+padding-top: 70px;
    padding-left: 0px;
 
    text-align: center;
@@ -564,22 +564,27 @@ float: center;
  	font-size: 30px;
  	font-weight: bold;
  }
+ .allls{
+ 	display: flex;
+ 	justify-content: space-around;
+ }
  .contacts1{
 float:left;
 
  }
  .contacts2{
 float: left;
-margin-left: 130px;
+
 
  }
   .contacts3{
-  margin-right: 800px; 
+  	float: left;
+   
   }
 .allls{
+text-align: center;
 
-
-margin-left: 900px;
+margin-left: 0px;
 margin-top: 30px;
 
 }
@@ -589,17 +594,16 @@ margin-top: 30px;
 	font-size: 23px;
 }
 .butions {
-	margin-left: 1080px;
+	
 	margin-top: 30px;
 	letter-spacing: 0.5px;
-
-	
-
-
 }
-.end {
-	text-align: center;
 	
+
+.end {
+
+	text-align: center;
+	margin-left: 47%;
 	margin-top: 30px;
 
 	height: 40px;
@@ -611,7 +615,7 @@ margin-top: 30px;
 	font-size: 15px;
 	font-weight: 700;
 	padding: 0px 16px;
-	margin:17px 14px 0px 1179px;
+	
 }
 
 
