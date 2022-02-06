@@ -32,6 +32,7 @@ main{
     color: #ffffff
     
      }
+
 .menu  li{
 	float: left;
 	line-height: 60px;
@@ -169,6 +170,32 @@ main{
 		margin-left: 10px;
 	}
                                                                     }
+.show-anim{
+animation: titlemove 0.3s;
+}
+
+
+.modal-header{
+background: #344051;
+color: #fff;
+font-size: 28px;
+	line-height: 60px;
+	text-transform: uppercase;
+}
+.modal-body{   /*цвет модального окна */
+background: #e97700;
+color: #fff;
+}
+.modal-body a{
+	color: #fd0202;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+.modal-footer{
+background: #344051;	
+}
+
+
 
                  /*2*/
 .info{
@@ -306,6 +333,13 @@ transform: scale(1.1);
 	height: 10px;
 
 }
+
+.carousel1{
+padding-top: 60px;	
+}
+
+
+
 .Work span{
 	float:center;
 	/*padding-left: 30%;*/
@@ -396,6 +430,10 @@ opacity: 0;
 	color:#dc7d00;
 }
 
+.btn{
+	opacity: 0;
+
+}
 
 
 
@@ -512,9 +550,37 @@ width: 60%;
 	margin-left: 29%;
 	height: 10px;
 }
+.carousel2{
+	padding-top: 60px;
+}
+
+
+
 .avatar{
 	margin-left: 46%;
-	margin-top: 30px;
+	/*margin-top: 30px;*/
+	border: 2px solid #000;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
+	background: url(../img/avatar.png)
+
+}
+.avatar2{
+	margin-left: 46%;
+	/*margin-top: 30px;*/
+	border: 2px solid #000;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
+	background: url(../img/avatar.png)
+
+}
+.avatar3{
+	margin-left: 46%;
+	/*margin-top: 30px;*/
 	border: 2px solid #000;
 	border-radius: 50%;
 	width: 100px;
