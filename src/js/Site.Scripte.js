@@ -22,10 +22,38 @@ function onEntry (entry){
 	  	}
 	  });
 }
-
-
 });
+
 
 $(document).ready(function() {
   $('.image-link').magnificPopup({type:'image'}); /*Модальное окно */
 });
+
+
+
+/*обо мне*/
+$(document).ready(function(){
+
+let options = {thresgold: [0.5]};
+  let observer = new IntersectionObserver(onEntry, options);
+  let elements = $('.info');
+  elements.each((i,el) => {
+  	 observer.observe(el);
+  });
+function onEntry (entry){
+	  entry.forEach(change => {
+	  	if (change.isIntersecting){
+	  		change.target.classList.add('show-anim2');
+	  	}
+	  });
+}
+
+
+});
+
+function explode(){
+ $(document).ready(function() {
+$("#exampleModal").modal('show');
+ });
+}
+setTimeout(explode, 7000);
