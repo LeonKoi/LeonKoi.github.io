@@ -23,7 +23,7 @@ body{
 
 main{
 	width: 100%;
-	height: 100%;
+	height: 101%;
 }
 
 .menu{
@@ -203,7 +203,7 @@ background: #344051;
 
                  /*2*/
 .info{
-	opacity: 0;
+	
 	-webkit-animation: Midel 0.5s ease forwards;
 	-o-animation: Midel 0.5s ease forwards;         /* Появление меню */
     animation: Midel 0.5s ease forwards;
@@ -282,8 +282,8 @@ transform: scale(1.1);
                                     }
 
 .show-anim2{
-animation: Midel 3s;
-opacity: 1;
+animation: Midel 5s;
+
 }
 
       /*3*/
@@ -483,9 +483,34 @@ width: 60%;
 	width: 60%;
 	height: 30px;
 	
-	margin-bottom: 240px;
+	margin-bottom: 100px;
         }
     
+
+       .TIMEE{
+ float:left;
+}
+.dayss{	
+}
+
+       .STOIM{
+ float:left;
+}
+.stoi{
+ float:left;
+}
+
+.row{
+	font-size: 20px;
+}
+.row2{
+	font-size: 20px;
+	margin-bottom: 140px;
+}
+
+
+
+
 
 
 
