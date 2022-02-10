@@ -116,27 +116,26 @@ function onEntry (entry){
 function calculate() {
   let sum = 0;
   let deadlines = 0;
-  $('select').each(function() {
-    sum += parseInt($(this).val());
-  });
+  
   if ($('option[name=s11]:selected')) {
-    if ($('#list').val() == "opt1") sum += 0;
-    if ($('#list').val() == "opt2") sum += 4000;
-    if ($('#list').val() == "opt3") sum += 2400;
-    if ($('#list').val() == "opt4") sum += 1200;
+    if ($('#list').val() == "opt1") sum += 0 , deadlines += 0;
+    if ($('#list').val() == "opt2") sum += 4000 , deadlines += 30;
+    if ($('#list').val() == "opt3") sum += 2400 , deadlines += 15;
+    if ($('#list').val() == "opt4") sum += 1200 , deadlines += 28;
    }
 if ($('option[name=s22]:selected')) {
-    if ($('#list2').val() == "optio1") sum += 0;
-    if ($('#list2').val() == "optio2") sum += 4000;
-    if ($('#list2').val() == "optio3") sum += 2400;
-    if ($('#list2').val() == "optio4") sum += 1200;
+    if ($('#list2').val() == "optio1") sum += 0 , deadlines += 0;
+    if ($('#list2').val() == "optio2") sum += 4000 , deadlines += 25;
+    if ($('#list2').val() == "optio3") sum += 2400 , deadlines += 20;
+    if ($('#list2').val() == "optio4") sum += 1200 , deadlines += 10;
 }
 if ($('option[name=s33]:selected')) {
-    if ($('#list3').val() == "option1") sum += 0;
-    if ($('#list3').val() == "option2") sum += 4000;
-    if ($('#list3').val() == "option3") sum += 2400;
+    if ($('#list3').val() == "option1") sum += 0 , deadlines += 0;
+    if ($('#list3').val() == "option2") sum += 4000 , deadlines += 20;
+    if ($('#list3').val() == "option3") sum += 2400 , deadlines += 15;
   }
   $('#final_price').html(sum);
+  $('#final_day').html(deadlines);
 }
 $('select').change(function() {
   calculate();

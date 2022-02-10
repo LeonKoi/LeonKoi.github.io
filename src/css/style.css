@@ -7,7 +7,7 @@ body{
      height: 60px;
      background: #344051;
      position: fixed;
-     z-index: 11;
+     z-index: 71;
     }
 .logo{
 	color: #fff;
@@ -427,7 +427,7 @@ animation: underss 2s;
 	color:#dc7d00;
 }
 
-.btn{
+.btn-primary{
 	opacity: 0;
 
 }
